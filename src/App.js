@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import Navigation from "./components/navigation/Navigation";
 import Logo from "./components/logo/Logo";
 import ImageLink from "./components/imageLinkForm/ImageLinkForm"
+import Rank from "./components/rank/Rank"
 import "./App.css";
 import particlesOptions from "./particles.json";
 
@@ -17,6 +18,7 @@ function App() {
       <Particles options={particlesOptions} init={particlesInit} />
       <Navigation/>
       <Logo />
+      <Rank />
       <ImageLink />
       {/* <FaceRec /> */}
     </div>
